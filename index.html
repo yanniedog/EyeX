@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EyeX</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <a href="#nav" class="skip-link">Skip to navigation</a>
+    <h1>EyeX</h1>
+    <nav id="nav" aria-label="Main navigation">
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-menu">Menu</button>
+      <ul id="main-menu" class="main-menu">
+        <li><a href="#home">Home</a></li>
+        <li class="has-submenu">
+          <button type="button" class="submenu-trigger" aria-expanded="false" aria-controls="gaming-sub">Gaming</button>
+          <ul id="gaming-sub" class="submenu" hidden>
+            <li><a href="#gaming">Gaming</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to EyeX.</p>
+    </section>
+
+    <section id="gaming">
+      <h2>Gaming</h2>
+      <p>Join our gaming community on Discord:</p>
+      <ul class="discord-links">
+        <li><a href="https://discord.gg/Yaurn7P6TW" target="_blank" rel="noopener noreferrer">Yannie's Sniper Elite Discord Server</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Page updated</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
