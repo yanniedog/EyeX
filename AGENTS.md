@@ -1,6 +1,6 @@
 # AGENTS.md
 
-## Cursor Cloud specific instructions
+## Development instructions
 
 This repository is a **static website** ("EyeX") consisting of only `index.html`,
 `styles.css`, and `script.js`. There is no build system, package manager, or
@@ -12,7 +12,7 @@ Serve the folder with any static HTTP server and open the printed URL. Using a
 server (rather than opening `index.html` via `file://`) ensures `script.js` runs
 in a normal origin:
 
-```
+```sh
 python3 -m http.server 8000
 ```
 
